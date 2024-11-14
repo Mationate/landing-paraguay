@@ -1,5 +1,4 @@
 import { Button } from "./button";
-import TestimonialsAvatars from "./testimonials-avatars";
 
 function Hero() {
   return (

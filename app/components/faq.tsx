@@ -104,7 +104,7 @@ const FAQItem = ({
   );
 };
 
-export default function FAQ({ config }: { config?: any }) {
+export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const handleToggle = (index: number) => {
